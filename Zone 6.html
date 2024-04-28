@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    
+<head>
+    <Title>Flood Zone Website</Title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <div class="header">
+        <img src="header.jpg" alt="FloodZone Website">
+        <a href="html/index.html"></a></i></button>
+        </div>
+</head>
+<body>
+   <div> <h1 class="heading">BARANGAY ZONE VI, SANTA BARBARA, ILOILO</h1>
+    <a href="index.html"><button class="btn"><i class="fa fa-home"></i></a>
+    </div>
+    <main>
+        <div class="cointainer">
+            <div class="row">
+                <div class="col-6">
+                    <div class="leftside"></div>
+                   <img src="ZONE VI.png" alt="Zone 6" id="Image">
+                </div>
+                <div class="col-6">
+                    <div class="rightside">
+                        <div class="label">
+                            <h2>DESCRIPTION</h2>
+                            <div class="low legend-content"><h3>Flood Risk: Low</h3></div>
+                            <div class="evacuation"><svg xmlns="http://www.w3.org/2000/svg" height="18" viewBox="0 -960 960 960" width="24"><path d="M360-440h80v-110h80v110h80v-190l-120-80-120 80v190Zm120 254q122-112 181-203.5T720-552q0-109-69.5-178.5T480-800q-101 0-170.5 69.5T240-552q0 71 59 162.5T480-186Zm0 106Q319-217 239.5-334.5T160-552q0-150 96.5-239T480-880q127 0 223.5 89T800-552q0 100-79.5 217.5T480-80Zm0-480Z"/></svg>
+                            EVACUATION CENTER:
+                            <p><a href="https://www.google.com/maps/place/Zone+6+-+Poblacion,+Santa+Barbara+(+Barangay+Hall+)/@10.8161233,122.526489,15z/data=!4m15!1m7!2m6!1szone+vi+barangay+hall+santa+barbara!3m4!2s10.825753,+122.532558!4m2!1d122.5325575!2d10.8257534!3m6!1s0x33aee34a556b50e1:0x54bbb258dc836338!8m2!3d10.8176116!4d122.5405668!15sCiN6b25lIHZpIGJhcmFuZ2F5IGhhbGwgc2FudGEgYmFyYmFyYVolIiN6b25lIHZpIGJhcmFuZ2F5IGhhbGwgc2FudGEgYmFyYmFyYZIBEGNvbW11bml0eV9jZW50ZXKaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVUk9iRzk1V0ZObkVBReABAA!16s%2Fg%2F11t2b8zvhl?entry=ttu">BARANGAY HALL/SB COVERED GYM</a></p>
+                            </div>
+                        </div>
+                            <button class="accordion">BEFORE</button>
+                            <div class="panel">
+                            <p>1. Stay tuned to news on TV and radio for updates, warnings, and alerts. </p>
+                            <p>2. Gather and inform family members about the impending flood.</p> 
+                            <p>3. Make an emergency plan.</p>
+                            <p>4. Keep personal files and property in higher ground to avoid damage.</p>
+                            <p>5. Fix roofs and make your house sturdy.</p>
+                            <p>6. Know the nearest evacuation center.</p>   
+                            </div>
+    
+                            <button class="accordion">DURING</button>
+                            <div class="panel">
+                            <p>1. Stay Calm.</p>
+                            <p>2. Avoid walking or driving in flood waters to prevent electrocution.</p>
+                            <p>3. Shut off water service, gas service and electricity to your home.</p>
+                            <p>4. Secure essentials in a bag such as flashlight and medicine kit.</p>
+                            <p>5. Heed warnings from officials and evacuate when orders are given.</p>
+                            <p>6. Evacuate safely and always stay together, Look out for your family/household members.</p>
+                            </div>
+    
+                            <button class="accordion">AFTER</button>
+                            <div class="panel">
+                             <p>1. Review and check your houses from any damage.
+                            </p>
+                             <p>2. Repair your flooded home.
+                            </p>
+                             <p>3. Stay updated from the local news about further orders.
+                            </p>
+                             <p>4. Avoid walking through water; it might contain bacteria and viruses.
+                            </p>
+                             <p>5. Clean and disinfect everything that got wet.
+                            </p>
+                             <p>6. Drain water when possible.
+                            </p>
+                            </div>
+                        </wrap>
+                       
+                    </div>
+                  
+                </div>
+            </div>"
+        </div>
+    </main>
+    <script>
+       var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+    </script>
+</body>
+</html>
